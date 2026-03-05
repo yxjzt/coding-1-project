@@ -1,0 +1,213 @@
+html{
+    background-image: url("https://images.pexels.com/photos/1287075/pexels-photo-1287075.jpeg?cs=srgb&dl=pexels-eberhardgross-1287075.jpg&fm=jpghttps://images.pexels.com/photos/1287075/pexels-photo-1287075.jpeg?cs=srgb&dl=pexels-eberhardgross-1287075.jpg&fm=jpg");
+    background-size: 2700px 4000px;
+     background-position: center top;
+     background-position: center -60%;
+background-attachment: fixed;
+}
+
+.header{
+ font-family:fantasy;
+ font-size:80px;
+ background-color: rgb(107, 114, 106);
+ color:rgb(45, 63, 50);
+ border-width: 6px;
+ border-color: rgb(55, 78, 74);
+ border-style: solid;
+ width: 600px;
+ margin-left:auto;
+ margin-right:auto;
+text-align:center;
+
+}
+
+
+
+@keyframes driveIn {
+    from {
+        transform: translateX(-100vw);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.gt3{
+  width: 900px;
+  height:auto;
+    display: block;
+  margin-left:auto;
+  margin-right: auto;
+  filter: drop-shadow(0 0 1.1rem rgb(0, 0, 0));
+  position: relative;
+    animation: driveIn 1.5s ease-out forwards;
+ 
+}
+.gt3:hover{
+  filter: drop-shadow(0 0 2.5rem rgb(14, 65, 54));
+}
+
+
+.engine:hover{
+  filter: drop-shadow(0 0 1.2rem rgb(72, 134, 118));
+}
+
+
+.engine{
+  width: 600px;
+  height:auto;
+  display: block;
+  margin-top: 10px;
+  position:relative;
+  right:-70px;
+  filter: drop-shadow(0 0 0.75rem rgb(87, 104, 101));
+}
+
+
+.engine-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+    margin-top: 20px;
+}
+
+
+
+
+.engine-dsc{
+    color:rgb(52, 66, 56);
+    font-size: 28px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:italic;
+  width: 900px;
+  height:auto;
+  display: block;
+  border-style:dotted;
+  text-align: center;
+  background-color: rgb(126, 145, 140);
+  border-width: 6px;
+  border-color: rgb(249, 252, 251);
+  position:relative;
+ left: 110px;
+ 
+ 
+}
+
+
+.description{
+  text-align:center;
+  font-size: 22px;
+  color:rgb(133, 148, 140);
+  font-style:italic;
+  font-family:"Franklin Gothic Medium";
+  border-style: solid;
+  background-color: rgb(44, 51, 45);
+  border-width: 5px;
+ margin-top:40px;
+  border-color: rgb(170, 192, 184);
+  width: 1000px;
+  margin-left: auto;
+  margin-right:auto;
+  font-size:30px;
+}
+
+
+.specs {
+  background-color: rgb(29, 34, 31);
+  border-style:groove;
+  border-width: 30px;
+  border-color: rgb(145, 144, 141);
+  width: 700px;
+  text-align:center;
+  margin-left: 1490px;
+  margin-top:-140px;
+  color:rgb(228, 226, 226);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 50px;
+  position:relative;
+  bottom: 1200px;
+  right:515px;
+}
+.spec-title{
+  width: 540px;
+  font-size: 90px;
+  font-weight: bold;
+  position:relative;
+  top:60px;
+  left:1100px;
+  color:rgb(107, 153, 146);
+  border-style: dotted;
+  border-width: 9px;
+  border-color: rgb(13, 131, 105);
+  background-color:rgb(33, 56, 51);
+  
+}
+  
+  
+.gt3-specs{
+
+  width: 500px;
+  height:auto;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  position:relative;
+  top:115px;
+  right:500px;
+}
+
+.gt3-specs:hover{
+  filter: drop-shadow(0 0 1.5rem rgb(255, 255, 255));
+}
+
+.porscheimage {
+  width: 1400px;
+  height:auto;
+  display: block;
+  position:relative;
+  bottom: 1250px;
+  right:200px;
+  animation-name:porscheimage;
+}
+
+.porscheimage {
+  display: inline-block;
+  position:relative;
+  transform:scaleX(-180px);
+     animation: porscheimage 1.5s ease-out forwards;
+}
+
+@keyframes porscheimage {
+   from {transform: translateX(-100vw);}}
+   to { transform: translateX(0);
+        opacity: 1;}
+
+
+.porscheimage:hover {
+  animation: porscheimage 1.5s ease-out forwards;
+  filter: drop-shadow(0 0 2rem rgb(255, 255, 255));
+}
+
+#purchase{
+  text-align:center;
+  font-size:37px;
+  color:rgb(255, 255, 255);
+  font-style:italic;
+  font-family:"Franklin Gothic Medium";
+  border-style: solid;
+  background-color: rgb(44, 51, 45);
+  border-width: 5px;
+  border-color: rgb(170, 192, 184);
+  width: 950px;
+  margin-left: auto;
+  margin-right:auto;
+  position:relative;
+  bottom:1100px;
+}
+#purchase a:hover{
+  color:rgb(84, 137, 206);
+  filter: drop-shadow(0 0 1rem rgb(60, 141, 141));
+}
