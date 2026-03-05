@@ -1,5 +1,5 @@
 html{
-    background-image: url("https://images.pexels.com/photos/1287075/pexels-photo-1287075.jpeg?cs=srgb&dl=pexels-eberhardgross-1287075.jpg&fm=jpghttps://images.pexels.com/photos/1287075/pexels-photo-1287075.jpeg?cs=srgb&dl=pexels-eberhardgross-1287075.jpg&fm=jpg");
+    background-image: url("https://images.pexels.com/photos/1287075/pexels-photo-1287075.jpeg?cs=srgb&dl=pexels-eberhardgross-1287075.jpg&fm=jpg");
     background-size: 2700px 4000px;
      background-position: center top;
      background-position: center -60%;
@@ -174,16 +174,17 @@ text-align:center;
 }
 
 .porscheimage {
-  display: inline-block;
-  position:relative;
-  transform:scaleX(-180px);
-     animation: porscheimage 1.5s ease-out forwards;
+    display: inline-block;
+    position: relative;
+    transform: scaleX(-1); 
+    animation: porscheimage 1.5s ease-out forwards;
+}
 }
 
 @keyframes porscheimage {
-   from {transform: translateX(-100vw);}}
-   to { transform: translateX(0);
-        opacity: 1;}
+    from { transform: translateX(-100vw); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
 
 
 .porscheimage:hover {
